@@ -21,6 +21,9 @@ function App() {
       <div>
         <Button>Somthing!</Button>
       </div>
+      <div>
+        <Button className="bg-cyan-600">Somthing 2!</Button>
+      </div>
     </div>
   );
 }
