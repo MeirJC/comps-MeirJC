@@ -15,7 +15,6 @@ function Button({
 }) {
   // Check if only one of the following props is true
   // then set the appropriate Tailwind CSS classes
-  console.log(rest);
   const btnClass = classNames(
     rest.className,
     "px-3 py-1.5 border m-0.5 flex items-center justify-center w-36",
@@ -34,7 +33,6 @@ function Button({
       "text-red-500 outline-red-500": outline && danger,
     }
   );
-  console.log(btnClass);
   return (
     <button {...rest} className={btnClass}>
       {children}
